@@ -40,7 +40,7 @@ All the LoRa packets are captured by a USRP N210 software-defined radio (SDR).
 
 The dataset consists of 26 sub-datasets, each of which is an HDF5 file. Each HDF5 file contains a number of LoRa signals (IQ samples of preamble part) and corresponding device labels. As HDF5 does not support complex numbers, we concatenate the signal I-brach (real part) and Q-branch (imaginary part) and then save it. Figure below shows the structure of the raw HDF5 dataset.
 
-<img src="./HDF5.jpg" alt="raw_dataset_structure" style="zoom: 30%;" />
+<img src="./readme_images/HDF5.jpg" width="700" height="450" />
 
 ### Training Datasets
 
@@ -58,7 +58,7 @@ The following table summarizes the basic information of each training dataset. A
 
 The test/enrollment datasets were collected in a residential room, an office building and a meeting room. The photos and floor plan of them are provided in the following figure:
 
-<img src="./floor_plan.jpg" alt="title" style="zoom: 20%;" />
+<img src="./readme_images/floor_plan.jpg" width="700" height="330" />
 
 The following table summarizes the basic information of each test/enrollment dataset.
 
@@ -116,7 +116,7 @@ data, label = LoadDatasetObj.load_iq_samples(file_path = './dataset/Train/datase
 ```
 This example will extract ($10\times100=1000$) LoRa signals in total. More specifically, it will extract 100 packets from each device in range. The function 'load_iq_samples' returns two arrays, data and label. The data is a complex128 array of size (1000,8192), and label is an int32 array of size (1000,1). The figure below illustrates the structures of the two arrays.
 
-<img src="./loaded_dataset.png" alt="loaded_dataset_structure" style="zoom: 30%;" />
+<img src="./readme_images/loaded_dataset.png" width="600" height="500" />
 
 <font color="#dd0000">Note that the loaded labels start from 0 but not 1 to adapt to deep learning. In other words, device 1 is labelled 0 and device 2 is labelled 1 and so forth.</font> 
 
