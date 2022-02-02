@@ -40,7 +40,7 @@ All the LoRa packets are captured by a USRP N210 software-defined radio (SDR).
 
 The dataset consists of 26 sub-datasets, each of which is an HDF5 file. Each HDF5 file contains a number of LoRa signals (IQ samples of preamble part) and corresponding device labels. As HDF5 does not support complex numbers, we concatenate the signal I-brach (real part) and Q-branch (imaginary part) and then save it. Figure below shows the structure of the raw HDF5 dataset.
 
-<img src="./readme_images/HDF5.jpg" alt="raw_dataset_structure" style="zoom: 67%;" />
+<img src="./HDF5.jpg" alt="raw_dataset_structure" style="zoom: 67%;" />
 
 ### Training Datasets
 
@@ -58,7 +58,7 @@ The following table summarizes the basic information of each training dataset. A
 
 The test/enrollment datasets were collected in a residential room, an office building and a meeting room. The photos and floor plan of them are provided in the following figure:
 
-<img src="./readme_images/floor_plan.jpg" alt="title" style="zoom: 33%;" />
+<img src="./floor_plan.jpg" alt="title" style="zoom: 33%;" />
 
 The following table summarizes the basic information of each test/enrollment dataset.
 
