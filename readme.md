@@ -161,7 +161,7 @@ import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import roc_curve, auc
 
-fpr, tpr, roc_auc, eer = test_rogue_device_detection('./models/FE_30.h5')
+fpr, tpr, roc_auc, eer = test_rogue_device_detection('./models/Extractor_1.h5')
 ```
 This function returns false posive rate (FPR), true positive rate (TPR), area under the curve (AUC) and equal error rate (EER). These are all important evaluation metrics in rogue device detection task. Please refer to our paper for their definitions.
 
@@ -198,7 +198,7 @@ pred_label, true_label, acc = test_classification(file_path_enrol =
                                                   file_path_clf = 
                                                   './dataset/Test/channel_problem/A.h5',
                                                   feature_extractor_name = 
-                                                  './models/FE_30.h5')
+                                                  './models/Extractor_1.h5')
 ```
 This example returns predicted labels, true labels and the overall classification accuracy. We can further plot a confusion matrix to see fine-grained classification results:
 
