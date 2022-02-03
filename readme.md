@@ -92,7 +92,7 @@ Please find the 'requirement.txt' file to install the required packages.
 
 #### b) Download Dataset
 
-Please downlaod the dataset and put it in the project folder. 
+Please downlaod the dataset and put it in the project folder. The download link is https://ieee-dataport.org/open-access/lorarffidataset.
 
 #### c) Operating System
 
