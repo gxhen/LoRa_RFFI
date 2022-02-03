@@ -56,7 +56,7 @@ The following table summarizes the basic information of each training dataset. A
 
 ### Test/Enrollment Datasets
 
-The test/enrollment datasets were collected in a residential room, an office building and a meeting room. The photos and floor plan of them are provided in the following figure:
+The test/enrollment datasets were collected in a residential room, an office building and a meeting room. The floor plan is provided in the following figure:
 
 <img src="./readme_images/floor_plan.jpg" width="700" height="330" />
 
