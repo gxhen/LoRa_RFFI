@@ -14,7 +14,7 @@ Fingerprint Identification for LoRa,” IEEE Trans. Inf. Forensics Security, 202
 @article{shen2021towards,
   title={Towards Scalable and Channel-Robust Radio Frequency Fingerprint Identification for LoRa},
   author={Shen, Guanxiong and Zhang, Junqing and Marshall, Alan and Cavallaro, Joseph},
-  journal={arXiv preprint arXiv:2107.02867},
+  journal={IEEE Trans. Inf. Forensics Security},
   year={2021}
 }
 ```
