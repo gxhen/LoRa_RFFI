@@ -226,5 +226,5 @@ The dataset and code is licensed under a Creative Commons Attribution-NonCommerc
 
 ## Contact
 Please contact the following email addresses if you have any questions:  
-gxshen AT seu.edu.cn
+gxshen AT seu.edu.cn <br>
 Junqing.Zhang AT liverpool.ac.uk
