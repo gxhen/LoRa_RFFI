@@ -111,7 +111,7 @@ from dataset_preparation import LoadDataset
 
 LoadDatasetObj = LoadDataset()
 data, label = LoadDatasetObj.load_iq_samples(file_path = './dataset/Train/dataset_training_aug.h5', 
-                                             dev_range = np.arange(30,40, dtype = int), 
+                                             dev_range = np.arange(0,30, dtype = int), 
                                              pkt_range= np.arange(0,100, dtype = int))
 ```
 This example will extract ($10\times100=1000$) LoRa signals in total. More specifically, it will extract 100 packets from each device in range. The function 'load_iq_samples' returns two arrays, data and label. The data is a complex128 array of size (1000,8192), and label is an int32 array of size (1000,1). The figure below illustrates the structures of the two arrays.
